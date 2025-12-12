@@ -1,4 +1,11 @@
 ## Data Folder
+
+- Explanation of data in URL
+    - Gongeoptap: [Link to repository](https://github.com/Youlkyeonglee/traffic_graph_data)
+    - Download links:
+    1. [graph_data](https://drive.google.com/drive/folders/1m7u_9K9q3s5-zPCxdXg6gT4iBLGHYcdi) (Google Drive, image coorindates)
+    2. [world_graph_data](https://drive.google.com/drive/folders/1bz7fisGKwMBUmbzaFgpFabr54Ze6ZGr_) (Google Drive, world coorindates)
+    
 ```
 gongeoptap_graph_data
 ├── graph_data/ 
@@ -17,7 +24,7 @@ DRIFT_graph_data
 ```
 
 ## Train
-```python
+```bash
     python train.py \
     --model_type "NeighborAwareGraphSAGE" \
     --edge_dim 5 \
@@ -45,7 +52,7 @@ DRIFT_graph_data
 ```
 
 ## Test
-```python
+```bash
 python test.py \
   --model_path runs/project_gongeoptap/train/NeighborAwareGraphSAGE_vehicle_edge_5_128_OneCycleLR_layer5_aggradd_1_mlp_num_vehicles4_kl_weight0.3_Site__balance1.0_2025-12-11/best_model.pth \
   --pkl_path ./4_20250814graph_data/graph_data/combined_vehicle_data_4_5.pkl \

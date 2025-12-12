@@ -1,3 +1,11 @@
+## Neighbor-Aware GraphSAGE: Neighborhood Information Adopted Learning Approach for Vehicle Movement Status Classification
+
+## Requirements
+- Python 3.10
+- cuda 11.8
+- torch 2.0.0
+- torch-geometric
+
 ## Data Folder
 
 - Explanation of data in URL
@@ -66,3 +74,18 @@ python test.py \
   --dataset gongeoptap \
   --graph_data_type image
 ```
+
+## Citation
+
+If you use this research in your research, please cite:
+```
+@article{comming soon,
+  title={comming soon},
+  author={comming soon},
+  year={comming soon},
+  url={comming soon}
+}
+```
+
+## License
+This research is provided for research purposes only.

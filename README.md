@@ -1,3 +1,21 @@
+## Data Folder
+```
+gongeoptap_graph_data
+├── graph_data/ 
+│    ├── combined_vehicle_data_4_5.pkl
+│    └── combined_vehicle_data_4_5 (train/val/test cache file)
+└── world_graph_data/
+│    └── ...
+
+DRIFT_graph_data
+├── A/ (Site A, B, C, D, E, I)
+│    ├── graph_data/ 
+│    │    ├── combined_vehicle_data_4_5.pkl
+│    │    └── combined_vehicle_data_4_5 (train/val/test cache file)
+│    └── world_graph_data/
+│    │    └── ...
+```
+
 ## Train
 ```python
     python train.py \
